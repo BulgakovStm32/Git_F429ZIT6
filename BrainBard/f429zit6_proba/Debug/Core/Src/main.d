@@ -27,7 +27,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h \
+ D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h \
  ../LWIP/App/lwip.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../LWIP/Target/lwipopts.h \
@@ -58,11 +58,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h \
  ../Middlewares/Third_Party/LwIP/src/include/netif/ethernet.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/dhcp.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/timeouts.h \
  ../LWIP/Target/ethernetif.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/apps/httpd.h \
@@ -127,7 +122,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
-D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h:
+D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h:
 
 ../LWIP/App/lwip.h:
 
@@ -188,16 +183,6 @@ D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h:
 ../Middlewares/Third_Party/LwIP/src/include/netif/ethernet.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/dhcp.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/timeouts.h:
 

@@ -64,8 +64,8 @@ all: main-build
 main-build: f429zit6_proba.elf secondary-outputs
 
 # Tool invocations
-f429zit6_proba.elf: $(OBJS) $(USER_OBJS) D:\04_CubeIDE_Prj\MCUv7.0\f429zit6_proba\STM32F429ZITX_FLASH.ld
-	arm-none-eabi-gcc -o "f429zit6_proba.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\04_CubeIDE_Prj\MCUv7.0\f429zit6_proba\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f429zit6_proba.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+f429zit6_proba.elf: $(OBJS) $(USER_OBJS) D:\04_CubeIDE_Prj\01_GitHub\Git_F429ZIT6\BrainBard\f429zit6_proba\STM32F429ZITX_FLASH.ld
+	arm-none-eabi-gcc -o "f429zit6_proba.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\04_CubeIDE_Prj\01_GitHub\Git_F429ZIT6\BrainBard\f429zit6_proba\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f429zit6_proba.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

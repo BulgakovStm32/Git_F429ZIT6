@@ -30,7 +30,7 @@ Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h \
+ D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h \
  ../Middlewares/Third_Party/LwIP/system/arch/cc.h \
@@ -57,11 +57,6 @@ Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.o: \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/etharp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/snmp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/dhcp.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/autoip.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/iana.h \
  ../Middlewares/Third_Party/LwIP/src/include/netif/ethernet.h
@@ -128,7 +123,7 @@ Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.o: \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
-D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h:
+D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h:
 
@@ -181,16 +176,6 @@ D:/04_CubeIDE_Prj/MCUv7.0/f429zit6_proba/My/Drivers/i2c_ST.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/snmp.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/dhcp.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h:
-
-../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/autoip.h:
 

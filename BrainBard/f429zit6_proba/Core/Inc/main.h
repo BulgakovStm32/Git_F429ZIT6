@@ -70,8 +70,6 @@ void Error_Handler(void);
 #define LED2_GPIO_Port GPIOA
 #define LED1_Pin GPIO_PIN_5
 #define LED1_GPIO_Port GPIOA
-#define PWR_BUT_LED_Pin GPIO_PIN_0
-#define PWR_BUT_LED_GPIO_Port GPIOB
 #define LAN_PWR_EN_Pin GPIO_PIN_12
 #define LAN_PWR_EN_GPIO_Port GPIOB
 #define USB_PWR_EN_Pin GPIO_PIN_13
@@ -82,6 +80,8 @@ void Error_Handler(void);
 #define FAN1_EN_GPIO_Port GPIOD
 #define FAN2_EN_Pin GPIO_PIN_7
 #define FAN2_EN_GPIO_Port GPIOD
+#define JETSON_PWR_EN_Pin GPIO_PIN_1
+#define JETSON_PWR_EN_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
