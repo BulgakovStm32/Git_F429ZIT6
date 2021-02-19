@@ -33,7 +33,12 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+//Drivers
 #include "i2c_ST.h"
+
+//Application
+#include "Blink.h"
+
 
 /* USER CODE END Includes */
 
@@ -80,6 +85,8 @@ void Error_Handler(void);
 #define FAN1_EN_GPIO_Port GPIOD
 #define FAN2_EN_Pin GPIO_PIN_7
 #define FAN2_EN_GPIO_Port GPIOD
+#define LIDAR_PWR_EN_Pin GPIO_PIN_9
+#define LIDAR_PWR_EN_GPIO_Port GPIOB
 #define JETSON_PWR_EN_Pin GPIO_PIN_1
 #define JETSON_PWR_EN_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */

@@ -31,6 +31,7 @@ Middlewares/Third_Party/LwIP/src/core/ipv6/ip6_frag.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h \
+ D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Application/Blink.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h \
  ../Middlewares/Third_Party/LwIP/system/arch/cc.h \
@@ -122,6 +123,8 @@ Middlewares/Third_Party/LwIP/src/core/ipv6/ip6_frag.o: \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
 D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Drivers/i2c_ST.h:
+
+D:/04_CubeIDE_Prj/01_GitHub/Git_F429ZIT6/BrainBard/f429zit6_proba/My/Application/Blink.h:
 
 ../Middlewares/Third_Party/LwIP/src/include/lwip/debug.h:
 

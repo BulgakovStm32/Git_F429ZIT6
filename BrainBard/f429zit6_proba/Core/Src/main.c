@@ -62,6 +62,8 @@ static void MX_I2C2_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+
+
 /* USER CODE END 0 */
 
 /**
@@ -126,6 +128,11 @@ int main(void)
   //Управление питанием JETSON.
   HAL_GPIO_WritePin(JETSON_PWR_EN_GPIO_Port, JETSON_PWR_EN_Pin, SET);
 
+  //****************************************************
+   //Управление питанием LIDAR.
+   HAL_GPIO_WritePin(LIDAR_PWR_EN_GPIO_Port, LIDAR_PWR_EN_Pin, SET);
+
+
 
   /* USER CODE END 2 */
 
@@ -165,9 +172,15 @@ int main(void)
 
 	if(!HAL_GPIO_ReadPin(PWR_BUT_GPIO_Port, PWR_BUT_Pin)) HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, SET);
 	else 												  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, RESET);
-	//********************************************
+	//****************************************************
+   //Управление питанием LIDAR.
+   if(Blink(INTERVAL_1000_mS)) HAL_GPIO_WritePin(LIDAR_PWR_EN_GPIO_Port, LIDAR_PWR_EN_Pin, SET);
+   else						   HAL_GPIO_WritePin(LIDAR_PWR_EN_GPIO_Port, LIDAR_PWR_EN_Pin, RESET);
+
+   //****************************************************
 	//Работа с LWIP.
 	MX_LWIP_Process();
+
 	//********************************************************************************
   }
   /* USER CODE END 3 */
@@ -340,7 +353,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, LAN_nRST_Pin|LED2_Pin|LED1_Pin|GPIO_PIN_6, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, LAN_PWR_EN_Pin|USB_PWR_EN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, LAN_PWR_EN_Pin|USB_PWR_EN_Pin|LIDAR_PWR_EN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOD, FAN1_EN_Pin|FAN2_EN_Pin, GPIO_PIN_RESET);
@@ -375,8 +388,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LAN_PWR_EN_Pin USB_PWR_EN_Pin */
-  GPIO_InitStruct.Pin = LAN_PWR_EN_Pin|USB_PWR_EN_Pin;
+  /*Configure GPIO pins : LAN_PWR_EN_Pin USB_PWR_EN_Pin LIDAR_PWR_EN_Pin */
+  GPIO_InitStruct.Pin = LAN_PWR_EN_Pin|USB_PWR_EN_Pin|LIDAR_PWR_EN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
