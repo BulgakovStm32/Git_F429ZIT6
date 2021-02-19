@@ -15,10 +15,14 @@ typedef enum{
 	INTERVAL_250_mS,
 	INTERVAL_500_mS,
 	INTERVAL_1000_mS,
+	INTERVAL_2500_mS,
+	INTERVAL_5000_mS,
+	INTERVAL_10000_mS,
 }BlinkIntervalEnum_t;
 //-----------------------------------------------------------------------------
 void     Blink_Loop(void);
 uint16_t Blink(BlinkIntervalEnum_t interval);
+
 //-----------------------------------------------------------------------------
 #endif /*_Blink_H*/
 
